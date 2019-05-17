@@ -1,0 +1,822 @@
+@charset "UTF-8";
+/**
+ * Odin css
+ *
+ **/
+html .chinese {
+  /* -- https://flatuicolors.com/palette/cn */
+  /* -- Chinese Palette by Wenjun from 🇨🇳 */
+  /* Golden_Sand */
+  --color-01: #eccc68;
+  /* Orange */
+  --color-02: #ffa502;
+  /* Coral */
+  --color-03: #ff7f50;
+  /* Bruschetta_Tomato */
+  --color-04: #ff6348;
+  /* Wild_Watermelon */
+  --color-05: #ff6b81;
+  /* Watermelon */
+  --color-06: #ff4757;
+  /* Peace */
+  --color-07: #a4b0be;
+  /* Bay_Wharf */
+  --color-08: #747d8c;
+  /* Grisaille */
+  --color-09: #57606f;
+  /* Prestige_Blue */
+  --color-10: #2f3542;
+  /* Lime_Soap */
+  --color-11: #7bed9f;
+  /* Ufo_Green */
+  --color-12: #2ed573;
+  /* French_Blue */
+  --color-13: #70a1ff;
+  /* Clear_Chill */
+  --color-14: #1e90ff;
+  /* Saturated_Sky */
+  --color-15: #5352ed;
+  /* Bright_Greek */
+  --color-16: #3742fa;
+  /* White */
+  --color-17: #ffffff;
+  /* Anti_Flash_White */
+  --color-18: #f1f2f6;
+  /* City_Lights */
+  --color-19: #dfe4ea;
+  /* Twinkle_Blue */
+  --color-20: #ced6e0;
+}
+
+html .spanish {
+  /* -- https://flatuicolors.com/palette/es */
+  /* -- Spanish Palette by Miguel Camacho from 🇪🇸 */
+  /* Jacksons Purple */
+  --color-01: #40407a;
+  /* Lucky Pont */
+  --color-02: #2c2c54;
+  /* C64 Purple */
+  --color-03: #706fd3;
+  /* Liberty */
+  --color-04: #474787;
+  /* Swan White */
+  --color-05: #f7f1e3;
+  /* Hot Stone */
+  --color-06: #aaa69d;
+  /* Summer Sky */
+  --color-07: #34ace0;
+  /* Devil Blue */
+  --color-08: #227093;
+  /* Celestial Green */
+  --color-09: #33d9b2;
+  /* Pal Springs Splash */
+  --color-10: #218c74;
+  /* Fluoresent Red */
+  --color-11: #ff5252;
+  /* Eye of Newt */
+  --color-12: #b33939;
+  /* Synthetic Pumkin */
+  --color-13: #ff793f;
+  /* Chilean Fire */
+  --color-14: #cd6133;
+  /* Crocodile Tooth */
+  --color-15: #d1ccc0;
+  /* Grey Porcelain */
+  --color-16: #84817a;
+  /* Mandarin Sorbet */
+  --color-17: #ffb142;
+  /* Alameda Ochre */
+  --color-18: #cc8e35;
+  /* Spiced Butternut */
+  --color-19: #ffda79;
+  /* Desert */
+  --color-20: #ccae62;
+}
+
+html .rusia {
+  /* -- https://flatuicolors.com/palette/ru */
+  /* -- Russian Palette by Alexander Zaytsev from 🇷🇺 */
+  /* Creamy_Peach */
+  --color-01: #f3a683;
+  /* Sawtooth_Aak */
+  --color-02: #f19066;
+  /* Rosy_Highlight */
+  --color-03: #f7d794;
+  /* Summertime */
+  --color-04: #f5cd79;
+  /* Soft_Blue */
+  --color-05: #778beb;
+  /* Cornflower */
+  --color-06: #546de5;
+  /* Brewed_Mustard */
+  --color-07: #e77f67;
+  /* Tigerlily */
+  --color-08: #e15f41;
+  /* Old_Geranium */
+  --color-09: #cf6a87;
+  /* Deep_Rose */
+  --color-10: #c44569;
+  /* Purple_Mountain_Majesty */
+  --color-11: #786fa6;
+  /* Purple_Corallite */
+  --color-12: #574b90;
+  /* Rouge_Pink */
+  --color-13: #f8a5c2;
+  /* Flamingo_Pink */
+  --color-14: #f78fb3;
+  /* Squeaky */
+  --color-15: #63cdda;
+  /* Blue_Curacao */
+  --color-16: #3dc1d3;
+  /* Apple_valley */
+  --color-17: #ea8685;
+  /* Porcelain_Rose */
+  --color-18: #e66767;
+  /* Pencil_Lead */
+  --color-19: #596275;
+  /* Biscay */
+  --color-20: #303952;
+}
+
+html .swedish {
+  /* -- https://flatuicolors.com/palette/se */
+  /* -- Swedish Palette by Jesper Dahlqvist from 🇸🇪 */
+  /* Highlighter_Pink */
+  --color-01: #ef5777;
+  /* Sizzling_Red */
+  --color-02: #f53b57;
+  /* Dark_Periwinkle */
+  --color-03: #575fcf;
+  /* Free_Speech_Blue */
+  --color-04: #3c40c6;
+  /* Megaman */
+  --color-05: #4bcffa;
+  /* Spiro_Disco_Ball */
+  --color-06: #0fbcf9;
+  /* Fresh_Turquoise */
+  --color-07: #34e7e4;
+  /* Jade_Dust */
+  --color-08: #00d8d6;
+  /* Minty_Green */
+  --color-09: #0be881;
+  /* Green_Teal */
+  --color-10: #05c46b;
+  /* Narenji_Orange */
+  --color-11: #ffc048;
+  /* Chrome_Yellow */
+  --color-12: #ffa801;
+  /* Yriel_Yellow */
+  --color-13: #ffdd59;
+  /* Vibrant_Yellow */
+  --color-14: #ffd32a;
+  /* Sunset_Orange */
+  --color-15: #ff5e57;
+  /* Red_Orange */
+  --color-16: #ff3f34;
+  /* Hint_of_elusive_Blue */
+  --color-17: #d2dae2;
+  /* London_Square */
+  --color-18: #808e9b;
+  /* Good_Night! */
+  --color-19: #485460;
+  /* Black_Pearl */
+  --color-20: #1e272e;
+}
+
+html .america {
+  /* -- https://flatuicolors.com/palette/us */
+  /* -- American Palette by Kevin Yang from 🇺🇸 */
+  /* Light_Greenish_Blue */
+  --color-01: hsl(163, 83%, 64%);
+  /* Mint_Leaf */
+  --color-02: hsl(168, 100%, 36%);
+  /* Faded_Poster */
+  --color-03: hsl(180, 74%, 72%);
+  /* Robins_Egg_Blue */
+  --color-04: hsl(179, 100%, 40%);
+  /* Green_Darner_Tail */
+  --color-05: hsl(210, 100%, 73%);
+  /* Electron_Blue */
+  --color-06: hsl(206, 92%, 46%);
+  /* Shy_Momnet */
+  --color-07: hsl(244, 98%, 80%);
+  /* Exodus_Fruit */
+  --color-08: hsl(247, 74%, 63%);
+  /* City_Lights */
+  --color-09: hsl(198, 19%, 89%);
+  /* Soothing_Breeze */
+  --color-10: hsl(198, 12%, 73%);
+  /* Sour_Lemon */
+  --color-11: hsl(46, 100%, 83%) {
+     /* Bright_Yarrow */ }
+    --color-12: hsl(39, 97%, 71%) {
+     /* First_Date */ }
+    --color-13: hsl(11, 90%, 80%) {
+     /* Orange_Ville */ }
+    --color-14: hsl(12, 70%, 61%) {
+     /* Pink_Glamour */ }
+    --color-15: hsl(0, 100%, 73%);
+  /* Chi-Gong */
+  --color-16: hsl(360, 67%, 51%);
+  /* Pico_8_Pink */
+  --color-17: hsl(339, 97%, 73%);
+  /* Prunus_Avium */
+  --color-18: hsl(331, 78%, 59%) {
+     /* American_River */ }
+    --color-19: hsl(196, 7%, 42%) {
+     /* Dracula_Orchid */ }
+    --color-20: hsl(193, 9%, 19%);
+}
+
+html .main {
+  /* -- https://flatuicolors.com/palette/defo */
+  /* -- Flat UI Palette v1 by Flat UI Colors */
+  /* Turquoise */
+  --color-01: #1abc9c;
+  /* Green_Sea */
+  --color-02: #16a085;
+  /* Esmerald */
+  --color-03: #2ecc71;
+  /* Nephritis */
+  --color-04: #27ae60;
+  /* Peter_River */
+  --color-05: #3498db;
+  /* Belize_Hole */
+  --color-06: #2980b9;
+  /* Amethyst */
+  --color-07: #9b59b6;
+  /* Wisteria */
+  --color-08: #8e44ad;
+  /* Wet_Asphalt */
+  --color-09: #34495e;
+  /* Midnight_blue */
+  --color-10: #2c3e50;
+  /* Sun_Flower */
+  --color-11: #f1c40f;
+  /* Orange */
+  --color-12: #f39c12;
+  /* Carrot */
+  --color-13: #e67e22;
+  /* Pumpkin */
+  --color-14: #d35400;
+  /* Alizarin */
+  --color-15: #e74c3c;
+  /* Pomegrante */
+  --color-16: #c0392b;
+  /* Clouds */
+  --color-17: #ecf0f1;
+  /* Silver */
+  --color-18: #bdc3c7;
+  /* Concrete */
+  --color-19: #95a5a6;
+  /* Asbestos */
+  --color-20: #7f8c8d;
+}
+
+/** Base
+ *–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #c3c3c3;
+}
+
+/** Buttons
+ *–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.button:hover, .button:focus,
+button:hover,
+button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="button"]:hover,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0;
+}
+
+.button--primary,
+button--primary,
+input[type="submit"]--primary,
+input[type="reset"]--primary,
+input[type="button"]--primary {
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0;
+}
+
+.button--primary:hover, .button--primary:focused,
+button--primary:hover,
+button--primary:focused,
+input[type="submit"]--primary:hover,
+input[type="submit"]--primary:focused,
+input[type="reset"]--primary:hover,
+input[type="reset"]--primary:focused,
+input[type="button"]--primary:hover,
+input[type="button"]--primary:focused {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB;
+}
+
+/** Code
+ *–––––––––––––––––––––––––––––––––––––––––––––––––– */
+code {
+  padding: .2rem .5rem;
+  margin: 0 .2rem;
+  font-size: 90%;
+  white-space: nowrap;
+  background: #F1F1F1;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px;
+}
+
+pre > code {
+  display: block;
+  padding: 1rem 1.5rem;
+  white-space: pre;
+}
+
+/** Forms
+ *–––––––––––––––––––––––––––––––––––––––––––––––––– */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #33C3F0;
+  outline: 0;
+}
+
+label,
+legend {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: 600;
+}
+
+fieldset {
+  padding: 0;
+  border-width: 0;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline;
+}
+
+label > .label-body {
+  display: inline-block;
+  margin-left: .5rem;
+  font-weight: normal;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .container {
+    width: 85%;
+    padding: 0;
+  }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .container {
+    width: 80%;
+  }
+  .column,
+  .columns {
+    margin-left: 4%;
+  }
+  .column:first-child,
+  .columns:first-child {
+    margin-left: 0;
+  }
+  .one.column,
+  .one.columns {
+    width: 4.66666666667%;
+  }
+  .two.columns {
+    width: 13.3333333333%;
+  }
+  .three.columns {
+    width: 22%;
+  }
+  .four.columns {
+    width: 30.6666666667%;
+  }
+  .five.columns {
+    width: 39.3333333333%;
+  }
+  .six.columns {
+    width: 48%;
+  }
+  .seven.columns {
+    width: 56.6666666667%;
+  }
+  .eight.columns {
+    width: 65.3333333333%;
+  }
+  .nine.columns {
+    width: 74.0%;
+  }
+  .ten.columns {
+    width: 82.6666666667%;
+  }
+  .eleven.columns {
+    width: 91.3333333333%;
+  }
+  .twelve.columns {
+    width: 100%;
+    margin-left: 0;
+  }
+  .one-third.column {
+    width: 30.6666666667%;
+  }
+  .two-thirds.column {
+    width: 65.3333333333%;
+  }
+  .one-half.column {
+    width: 48%;
+  }
+  /* Offsets */
+  .offset-by-one.column,
+  .offset-by-one.columns {
+    margin-left: 8.66666666667%;
+  }
+  .offset-by-two.column,
+  .offset-by-two.columns {
+    margin-left: 17.3333333333%;
+  }
+  .offset-by-three.column,
+  .offset-by-three.columns {
+    margin-left: 26%;
+  }
+  .offset-by-four.column,
+  .offset-by-four.columns {
+    margin-left: 34.6666666667%;
+  }
+  .offset-by-five.column,
+  .offset-by-five.columns {
+    margin-left: 43.3333333333%;
+  }
+  .offset-by-six.column,
+  .offset-by-six.columns {
+    margin-left: 52%;
+  }
+  .offset-by-seven.column,
+  .offset-by-seven.columns {
+    margin-left: 60.6666666667%;
+  }
+  .offset-by-eight.column,
+  .offset-by-eight.columns {
+    margin-left: 69.3333333333%;
+  }
+  .offset-by-nine.column,
+  .offset-by-nine.columns {
+    margin-left: 78.0%;
+  }
+  .offset-by-ten.column,
+  .offset-by-ten.columns {
+    margin-left: 86.6666666667%;
+  }
+  .offset-by-eleven.column,
+  .offset-by-eleven.columns {
+    margin-left: 95.3333333333%;
+  }
+  .offset-by-one-third.column,
+  .offset-by-one-third.columns {
+    margin-left: 34.6666666667%;
+  }
+  .offset-by-two-thirds.column,
+  .offset-by-two-thirds.columns {
+    margin-left: 69.3333333333%;
+  }
+  .offset-by-one-half.column,
+  .offset-by-one-half.columns {
+    margin-left: 52%;
+  }
+}
+
+/** Links
+ *–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  color: #1EAEDB;
+}
+
+a:hover {
+  color: #0FA0CE;
+}
+
+/** Misc
+ *–––––––––––––––––––––––––––––––––––––––––––––––––– */
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  border-width: 0;
+  border-top: 1px solid #E1E1E1;
+}
+
+/** Spacing
+ *–––––––––––––––––––––––––––––––––––––––––––––––––– */
+button,
+.button {
+  margin-bottom: 1rem;
+}
+
+input,
+textarea,
+select,
+fieldset {
+  margin-bottom: 1.5rem;
+}
+
+pre,
+blockquote,
+dl,
+figure,
+table,
+p,
+ul,
+ol,
+form {
+  margin-bottom: 2.5rem;
+}
+
+/** Tables
+ *–––––––––––––––––––––––––––––––––––––––––––––––––– */
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1;
+}
+
+th:first-child,
+td:first-child {
+  padding-left: 0;
+}
+
+th:last-child,
+td:last-child {
+  padding-right: 0;
+}
+
+/** Typography
+ *–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 1.296em;
+  line-height: 1.2rem;
+  letter-spacing: -.1rem;
+}
+
+@media screen and (min-width: 769px) {
+  h1 {
+    font-size: 1.602em;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  h1 {
+    font-size: 2.074em;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  h1 {
+    font-size: 2.441em;
+  }
+}
+
+h2 {
+  font-size: 1.215em;
+  line-height: 1.25rem;
+  letter-spacing: -.1rem;
+}
+
+@media screen and (min-width: 769px) {
+  h2 {
+    font-size: 1.424em;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  h2 {
+    font-size: 1.728em;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  h2 {
+    font-size: 1.953em;
+  }
+}
+
+h3 {
+  font-size: 1.138em;
+  line-height: 1.3rem;
+  letter-spacing: -.1rem;
+}
+
+@media screen and (min-width: 769px) {
+  h3 {
+    font-size: 1.266em;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  h3 {
+    font-size: 1.44em;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  h3 {
+    font-size: 1.563em;
+  }
+}
+
+h4 {
+  font-size: 1.067em;
+  line-height: 1.35rem;
+  letter-spacing: -.08rem;
+}
+
+@media screen and (min-width: 769px) {
+  h4 {
+    font-size: 1.125em;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  h4 {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  h4 {
+    font-size: 1.25em;
+  }
+}
+
+h5 {
+  font-size: 1em;
+  line-height: 1.5rem;
+  letter-spacing: -.05rem;
+}
+
+h6 {
+  font-size: 0.937em;
+  line-height: 1.6rem;
+  letter-spacing: 0;
+}
+
+@media screen and (min-width: 769px) {
+  h6 {
+    font-size: 0.889em;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  h6 {
+    font-size: 0.833em;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  h6 {
+    font-size: 0.8em;
+  }
+}
+
+p {
+  margin-top: 0;
+  font-size: 1em;
+  line-height: 1.5rem;
+  letter-spacing: -.05rem;
+}
+
+/**
+ * h1 1.296 | 1.602 | 2.074 | 2.441 |
+ *
+ * h2 1.215 | 1.424 | 1.728 | 1.953 |
+ *
+ * h3 1.138 | 1.266 | 1.44  | 1.563 |
+ *
+ * h4 1.067 | 1.125 | 1.2   | 1.25  |
+ *
+ * h5 1     | 1     | 1     | 1     |
+ *
+ * h6 0.937 | 0.889 | 0.833 | 0.8   |
+ *
+ * p  1     | 1     | 1     | 1     |
+ *
+ */
+/*# sourceMappingURL=odin.css.map */

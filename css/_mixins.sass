@@ -1,0 +1,49 @@
+// Media Queries
+@mixin mobile
+  @media screen and (min-width: #{$mobile+1}px)
+    @content
+
+@mixin tablet
+  @media screen and (min-width: #{$phablet+1}px)
+    @content
+
+@mixin tablet
+  @media screen and (min-width: #{$tablet+1}px)
+    @content
+
+@mixin screen
+  @media screen and (min-width: #{$screen+1}px)
+    @content
+
+@mixin desktop
+  @media screen and (min-width: #{$desktop+1}px)
+    @content
+
+// Mixin helpers and things
+@mixin flexCenter
+  align-items: center
+  display: flex
+  justify-content: center
+
+@mixin flexColCenter
+  align-items: center
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+
+@mixin bg-img($img, $pos)
+  background: $img no-repeat $pos
+  background-size: cover
+
+@mixin marg($num, $pos: 'all')
+  @if $pos == 'all'
+    margin: $num
+  @else if $pos == 'updown'
+    margin: $num 0
+  @else if $pos == 'sides'
+    margin: 0 $num
+
+@mixin fluid($property, $minValue, $maxValue)
+  $x: ($maxValue - $minValue)/($desktop - $mobile)
+  $y: $maxValue - $desktop * $x
+  #{$property}: calc(#{100*$x}vw + #{$y}px)
