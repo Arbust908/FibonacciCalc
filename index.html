@@ -9,13 +9,18 @@
 </head>
 <body>
   <header></header>
-  <main id="app">
-    <form >
+  <main id="app" class="container">
+    <form class="columns eight">
       <legend>FiboCalc</legend>
-      <input type="text" name="factor" v-model:factor>
-      <input type="text" name="position" v-model:position>
-      <h2 v-model:numero></h2>
+      <input type="text" name="factor"   v-model="factor"  >
+      <input type="text" name="position" v-model="position">
+      <h2>{{finalNum}}</h2>
     </form>
+    <aside class="columns four">
+      <ul>
+        <li v-for="num in fibTable">{{ num }}</li>
+      </ul>
+    </aside>
   </main>
   <footer></footer>
 </body>
@@ -27,21 +32,42 @@ new Vue({
   data: {
     factor: 1,
     position: 0,
-    numero: this.finalNum,
   },
   methods: {
-    fibonacci: function (pos) {
-      if ( pos == 0 ) return [];
-      if ( pos == 1 ) return [0];
-      if ( pos == 2 ) return [0, 1];
-      const prevSeq =  fibonacci(pos -1); 
-      return prevSeq.concat(prevSeq[n-2] + prevSeq[n-3]);
+    fibNum: function (num) {
+      let a = 1, b = 0, temp;
+      while (num >= 0){
+        temp = a;
+        a = a + b;
+        b = temp;
+        num--;
+      }
+      return b;
+    },
+    fiboArray: function (num) {
+      let a = 1, b = 0, temp, array = [];
+      while (num >= 0){
+        //console.table(['loop '+num,'temp '+temp, 'a '+a, 'b '+b]);
+        temp = a;
+        a = a + b;
+        b = temp;
+        array.push(b);
+        num--;
+      }
+      console.log(array);
+      return array;
     }
   },
   computed: {
     finalNum: function () {
-      return this.fibonacci(this.position);
-    }
+      let num = this.position;
+      num = this.fibNum(num);
+      num *= this.factor;
+      return num;
+    },
+    fibTable: function () {
+      return this.fiboArray(20);
+    },
   },
 })
 </script>
